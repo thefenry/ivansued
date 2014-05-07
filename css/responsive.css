@@ -1,12 +1,34 @@
 @media screen and (min-width: 480px){
-	body{
-		background: navy;
+	/*********************
+	TWO COLUMN LAYOUT
+	*********************/
+	#primary{
+		width: 50%;
+		float: left;
+	}
+
+	#secondary{
+		width: 40%
+		float: right;
+	}
+
+	/*********************
+	THREE COLUMN LAYOUT
+	*********************/
+
+	#gallery li {
+		width: 28.3333%;
+	}
+
+	/*This is grabbing the 4th element and clearing the format on the left of it*/
+	#gallery li:nth-child(4n){
+		clear: left;
 	}
 }
 
+	
+
 @media screen and (min-width: 600px){
-	body{
-		background: darkgreen;
-	}
+
 
 }
