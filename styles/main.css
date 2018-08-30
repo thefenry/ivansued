@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.subtitle {
+    margin: 0;
+}
+
+.flex-container {
+    display: -flex;
+    display: -webkit-flex;
+}
+
+.flex-item {
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+}
+
+/****************************************/
+
+/********        Mobile        **********/
+
+/****************************************/
+
+@media only screen and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
