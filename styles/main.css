@@ -11,6 +11,14 @@ h3 {
   text-align: center;
 }
 
+a {
+  color: #0f3f8c;
+}
+
+a:visited {
+  color: #3a0491;
+}
+
 .content-sections {
   background-color: #161616;
   margin: 50px 0;
@@ -44,6 +52,7 @@ h3 {
 
 .about-me-containers {
   padding: 40px;
+  height: 300px;
 }
 
 .background-images {
@@ -70,6 +79,15 @@ h3 {
 
 .contact-info > .flex-item {
   text-align: unset;
+}
+
+.proficiency-list {
+  list-style: none;
+  padding: 0
+}
+
+footer {
+  text-align: center;
 }
 
 /****************************************/
