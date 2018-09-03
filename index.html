@@ -11,12 +11,12 @@
 </head>
 
 <body>
-    <section class="flex-container" id="title-section">
-        <h1>Ivan Sued</h1>
+    <section class="flex-container flex-column content-sections" id="title-section">
+        <h1 class="">Ivan Sued</h1>
         <h3 class="subtitle">Lead Developer</h3>
     </section>
-    
-    <section>
+
+    <section class="flex-container flex-column content-sections">
         <h2>About Me</h2>
 
         <div class="flex-container">
@@ -53,21 +53,23 @@
         </div>
     </section>
 
-    <section class="flex-container">
+    <section class="flex-container flex-column content-sections">
         <h2>Contact Details</h2>
-        <ul class="contact-info">
-            <li class="email">
-                <a href="mailto:thefenry@hotmail.com">thefenry@hotmail.com </a>
-            </li>
-            <li class="twitter">
-                <a href="http://twitter.com/intent/tweet?screen_name=thefenry">@thefenry</a>
-            </li>
-            <li class="linkedin">
-                <a href="https://www.linkedin.com/in/ivansued" target="_blank">linkedin</a>
-            </li>
-        </ul>
+        <div class="flex-item">
+            <ul class="flex-container flex-column contact-info">
+                <li class="email flex-item">
+                    <strong>Email: </strong> <a href="mailto:thefenry@hotmail.com">thefenry@hotmail.com </a>
+                </li>
+                <li class="twitter flex-item">
+                    <strong>Twitter:</strong> <a href="http://twitter.com/intent/tweet?screen_name=thefenry" target="_blank">@thefenry</a>
+                </li>
+                <li class="linkedin flex-item">
+                    <strong> LinkedIn:</strong> <a href="https://www.linkedin.com/in/ivansued" target="_blank">linkedin</a>
+                </li>
+            </ul>
+        </div>
     </section>
-
+    <!-- 
     <footer>
         <a href="https://twitter.com/thefenry">
             <img src="img/twitter-wrap.png" alt="twitter logo" class="social-icon">
@@ -76,7 +78,7 @@
             <img src="img/facebook-wrap.png" alt="facebook logo" class="social-icon">
         </a>
         <p>© 2013 - 2018 Ivan Sued. All Rights Reserved.</p>
-    </footer>
+    </footer> -->
 </body>
 
 </html>

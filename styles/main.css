@@ -11,6 +11,13 @@ h3 {
   text-align: center;
 }
 
+.content-sections {
+  background-color: #161616;
+  margin: 50px 0;
+  align-items: center;
+  justify-content: center;
+}
+
 .subtitle {
   margin: 0;
 }
@@ -18,12 +25,15 @@ h3 {
 #title-section {
   background-image: url(../images/server-room.jpg);
   height: 200px;
-  flex-direction: column;
 }
 
 .flex-container {
-  display: -flex;
+  display: flex;
   display: -webkit-flex;
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 .flex-item {
@@ -51,6 +61,15 @@ h3 {
 
 #proficiency-section {
   background-image: url(../images/keyboard.jpg);
+}
+
+.contact-info {
+  list-style: none;
+  text-align: unset;
+}
+
+.contact-info > .flex-item {
+  text-align: unset;
 }
 
 /****************************************/
